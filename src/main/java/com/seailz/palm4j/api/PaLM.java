@@ -42,9 +42,4 @@ public interface PaLM {
         return new PaLMImpl(key);
     }
 
-
-
-
-
-
 }
