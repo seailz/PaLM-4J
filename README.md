@@ -11,7 +11,7 @@ First, you'll want to create a new instance of the `PaLM` class. Here's an examp
 ```java
 PaLM palm = PaLM.newPaLM("YOUR_API_KEY_HERE");
 ```
-Your API key can be obtained from Google's [MakerSuite](https://makersuite.google.com//app/apikey).
+Your API key can be obtained from Google's [MakerSuite](https://makersuite.google.com/app/apikey).
 
 ### Retrieving Models
 Next, you can either retrieve a list of all avaliable models like this:
