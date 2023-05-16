@@ -125,7 +125,7 @@ public class GenerateMessageRequestImpl implements GenerateMessageRequest {
 
         Response<GenerateMessageResponse> response = new Response<>();
         new Thread(() -> {
-            Request req = new Request(path, new JSONObject().put("prompt", prompt.toJson()));
+            Request req = new Request(path, toJson());
             Request.GoogleApiResponse res = req.send();
             if (res.error()) {
                 response.completeError(new Response.Error(res.errorCode(), new JSONObject(res.body())));
