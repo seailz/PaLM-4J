@@ -1,6 +1,9 @@
 # PaLM-4J
 ✨ Java library for [Google's PaLM API](https://developers.generativeai.google/). This simplifies the use of the REST API!
 
+## Adding PaLM-4J to your project
+I'm currently using Jitpack for releases, so please see [this page](https://jitpack.io/#seailz/palm-4j/v.1.0.0) for intstructions on how to add PaLM-4J using your build system.
+
 ## Documentation
 Here's a quick guide on how to get started:
 
